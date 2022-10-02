@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.body{
+    background-color: #1a1a1d;
+    
+    height: calc(100vh - 8em);
+    color: rgba(255, 255, 255, 0.75);
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: larger;
+}
+.btn:hover{
+    border: 1px solid white;
+    border-radius: 12px;
+    
+}
+
+.image{
+    border-radius: 4px;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.do{
+    margin-top: 20px;
+}
+.about{
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 65px;
+}
+.text{
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-right: 100px;
+}
+.typee{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.game_pic{
+    padding: 50px;
+    height: 13vw;
+    margin-left: 5px;
+    position: relative;
+    margin-top: 40px;
+    width: 13vw;
+    transition: transform 2s
+}
+.game_pic:hover{
+    transform:scale(1.5);
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+

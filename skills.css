@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+
+body {
+    background-color: #1a1a1d;
+
+    height: calc(100vh - 8em);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.do{
+    margin-top: 20px;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: larger;
+}
+.btn:hover{
+    border: 1px solid white;
+    border-radius: 12px;
+    
+}
+
+
+
+
+main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a1d;
+}
+
+ul {
+    width: 1000px;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    margin: 48px 0;
+    position: relative;
+}
+
+li::before, li::after {
+    content: "";
+    display: block;
+    height: 16px;
+    width: 100%;
+    background-color: #1e272e;    ;
+    position: absolute;
+    bottom: -28px;
+}
+
+li::before {
+    box-shadow: 0 0 6px rgba(75, 207, 250, 0.2) ;
+}
+
+li::after {
+    background-image: linear-gradient(90deg, #b7ff00, #fcfbc3);
+}
+
+li::after {
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.python::after {
+    animation-name: js;
+}
+
+.HTML::after {
+    animation-name: css3;
+}
+.css::after{
+    animation-name: css;
+}
+.c::after{
+    animation-name: c;
+}
+.cpp::after{
+    animation-name: cpp;
+}
+.jss::after{
+    animation-name: jss;
+}
+@keyframes js {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}   
+
+@keyframes css3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}   
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 65%;
+    }
+}
+@keyframes c{
+    from{
+        width: 0;
+    }
+    to{
+        width: 35%;
+    }
+}
+@keyframes cpp{
+    from{
+        width: 0;
+    }
+    to{
+        width: 20%;
+    }
+}
+@keyframes jss{
+    from{
+        width: 0;
+    }
+    to{
+        width: 25%;
+    }
+}
+
+::-webkit-scrollbar {
+    width : 20px;
+}
+::-webkit-scrollbar-track {
+    background : #1a1a1d ;
+}
+::-webkit-scrollbar-thumb {
+    background : #242323 ;
+}
